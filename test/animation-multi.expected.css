@@ -1,0 +1,13 @@
+.foo_4y20Hz {
+  animation: keyframe-1_4y20Hz 1s ease-in-out, keyframe-2_4y20Hz .5s linear;
+}
+
+.bar_4y20Hz {
+  animation-name: keyframe-1_4y20Hz, keyframe-2_4y20Hz;
+}
+
+@keyframes keyframe-1_4y20Hz {
+}
+
+@keyframes keyframe-2_4y20Hz {
+}

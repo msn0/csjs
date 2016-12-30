@@ -21,7 +21,9 @@
     "travis-test": "npm run cover && ((cat coverage/lcov.info | coveralls) || exit 0)",
     "travis-test-browser": "zuul -- test/index.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "css": "^2.2.1"
+  },
   "devDependencies": {
     "brfs": "^1.4.2",
     "bulk-require": "^0.2.1",
